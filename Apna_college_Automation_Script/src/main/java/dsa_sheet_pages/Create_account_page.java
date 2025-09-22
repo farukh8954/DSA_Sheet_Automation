@@ -27,33 +27,22 @@ public class Create_account_page extends Baseliberary
 	@FindBy(xpath = "//button[text()=\"Create Account\"]")
 	private WebElement CreateAccount;
 	
-	public void Clickon_signin() throws InterruptedException
+	public void Clickon_signin()
 	{
-		Thread.sleep(2000);
-		signin.click();
-		Thread.sleep(1000);
+		waitforclick(signin);
 	}
-	public void CreatenewAccount() throws InterruptedException
+	public void CreatenewAccount() 
 	{
-		newuser.click();
-		Thread.sleep(1000);
-		username.click();
-		Thread.sleep(1000);
-		username.sendKeys("farukh ahmad");
-		Thread.sleep(1000);
-		Email.click();
-		Thread.sleep(1000);
-		Email.sendKeys("qwerty@gmail.com");
-		Thread.sleep(1000);
-		password.click();
-		Thread.sleep(1000);
-		password.sendKeys("far@1234");
-		Thread.sleep(1000);
-		Confirmpassword.click();
-		Thread.sleep(1000);
-		Confirmpassword.sendKeys("far@1234");
-		Thread.sleep(1000);
-		CreateAccount.click();
+		waitforclick(newuser);
+		waitforclick(username);
+		waitforSendkeys(username, "farukh ahmad");
+		waitforclick(Email);
+		waitforSendkeys(Email, "qwerty@gmail.com");
+		waitforclick(password);
+		waitforSendkeys(password, "far@1234");
+		waitforclick(Confirmpassword);
+		waitforSendkeys(Confirmpassword, "far@1234");
+		waitforclick(CreateAccount);
 	}
 	
 }

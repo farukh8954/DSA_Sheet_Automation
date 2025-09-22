@@ -23,22 +23,15 @@ public class Login_page extends Baseliberary
 	
 	public void Clickon_signin()
 	{
-		signin.click();
+		waitforclick(signin);
 	}
-	public void login() throws InterruptedException
+	public void login() 
 	{
-		Thread.sleep(1000);
-		Email.click();
-		Thread.sleep(1000);
-		Email.sendKeys("farukkk@gmail.com");
-		Thread.sleep(1000);
-		password.click();
-		Thread.sleep(1000);
-		password.sendKeys("far@1234");
-		Thread.sleep(1000);
-		login.click();
-		Thread.sleep(1000);
+		String path = "C:\\Users\\Apna College\\eclipse-workspace\\Apna_college_Automation_Script\\TestData\\Login credentials.xlsx";
+		waitforclick(Email);
+		waitforSendkeys(Email,GetExceldata(path, 0, 1, 4));
+		waitforclick(password);
+		waitforSendkeys(password,GetExceldata(path, 0, 2, 4));
+		waitforclick(login);
 	}
-	
-	
 }

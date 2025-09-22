@@ -1,41 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-20T19:08:14 IST" name="Default suite" finished-at="2025-09-20T19:08:52 IST" duration-ms="38223">
+  <suite started-at="2025-09-22T19:06:43 IST" name="Default suite" finished-at="2025-09-22T19:07:38 IST" duration-ms="55036">
     <groups>
     </groups>
-    <test started-at="2025-09-20T19:08:14 IST" name="Default test" finished-at="2025-09-20T19:08:52 IST" duration-ms="38223">
-      <class name="dsa_sheet_Test.Courses_Test">
-        <test-method is-config="true" signature="launchSheeturl()[pri:0, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:14 IST" name="launchSheeturl" finished-at="2025-09-20T19:08:16 IST" duration-ms="1975" status="PASS">
+    <test started-at="2025-09-22T19:06:43 IST" name="Default test" finished-at="2025-09-22T19:07:38 IST" duration-ms="55036">
+      <class name="dsa_sheet_Test.DSA_sheet_HeaderTest">
+        <test-method is-config="true" signature="launchSheeturl()[pri:0, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:06:43 IST" name="launchSheeturl" finished-at="2025-09-22T19:06:51 IST" duration-ms="8563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSheeturl -->
-        <test-method signature="clickonsignIN()[pri:1, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:16 IST" name="clickonsignIN" finished-at="2025-09-20T19:08:21 IST" duration-ms="5121" status="PASS">
+        <test-method signature="clickonsignIN()[pri:1, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:06:51 IST" name="clickonsignIN" finished-at="2025-09-22T19:06:54 IST" duration-ms="2267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonsignIN -->
-        <test-method signature="Login()[pri:2, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:21 IST" name="Login" finished-at="2025-09-20T19:08:30 IST" duration-ms="8421" status="PASS">
+        <test-method signature="Login()[pri:2, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:06:54 IST" name="Login" finished-at="2025-09-22T19:06:57 IST" duration-ms="3229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="ClickonCourses()[pri:3, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:30 IST" name="ClickonCourses" finished-at="2025-09-20T19:08:32 IST" duration-ms="2100" status="PASS">
+        <test-method signature="clickoncourses()[pri:3, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:06:57 IST" name="clickoncourses" finished-at="2025-09-22T19:06:58 IST" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickonCourses -->
-        <test-method signature="clickonAlpha6()[pri:4, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:32 IST" name="clickonAlpha6" finished-at="2025-09-20T19:08:39 IST" duration-ms="6804" status="PASS">
+        </test-method> <!-- clickoncourses -->
+        <test-method signature="clickonAlpha6()[pri:4, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:06:58 IST" name="clickonAlpha6" finished-at="2025-09-22T19:07:04 IST" duration-ms="5479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonAlpha6 -->
-        <test-method signature="clickonDelta7()[pri:5, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:39 IST" name="clickonDelta7" finished-at="2025-09-20T19:08:45 IST" duration-ms="6232" status="PASS">
+        <test-method signature="clickonDelta7()[pri:5, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:04 IST" name="clickonDelta7" finished-at="2025-09-22T19:07:21 IST" duration-ms="16835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonDelta7 -->
-        <test-method signature="clickonSigma9()[pri:6, instance:dsa_sheet_Test.Courses_Test@327514f]" started-at="2025-09-20T19:08:45 IST" name="clickonSigma9" finished-at="2025-09-20T19:08:52 IST" duration-ms="7511" status="PASS">
+        <test-method signature="clickonSigma_9()[pri:6, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:21 IST" name="clickonSigma_9" finished-at="2025-09-22T19:07:25 IST" duration-ms="4544" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickonSigma9 -->
-      </class> <!-- dsa_sheet_Test.Courses_Test -->
+        </test-method> <!-- clickonSigma_9 -->
+        <test-method signature="clickonResource()[pri:7, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:25 IST" name="clickonResource" finished-at="2025-09-22T19:07:26 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonResource -->
+        <test-method signature="clickonDsaSheet()[pri:8, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:26 IST" name="clickonDsaSheet" finished-at="2025-09-22T19:07:28 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonDsaSheet -->
+        <test-method signature="testSearchBar()[pri:9, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:28 IST" name="testSearchBar" finished-at="2025-09-22T19:07:31 IST" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBar -->
+        <test-method signature="checkNotifications()[pri:10, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:31 IST" name="checkNotifications" finished-at="2025-09-22T19:07:32 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNotifications -->
+        <test-method signature="checkDarkmodebutton()[pri:11, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:32 IST" name="checkDarkmodebutton" finished-at="2025-09-22T19:07:33 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDarkmodebutton -->
+        <test-method signature="chekcodingStreak()[pri:12, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:33 IST" name="chekcodingStreak" finished-at="2025-09-22T19:07:35 IST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekcodingStreak -->
+        <test-method signature="clickonProfileLogo()[pri:13, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:35 IST" name="clickonProfileLogo" finished-at="2025-09-22T19:07:37 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonProfileLogo -->
+        <test-method signature="clickonprofiledropdown()[pri:14, instance:dsa_sheet_Test.DSA_sheet_HeaderTest@3b0090a4]" started-at="2025-09-22T19:07:37 IST" name="clickonprofiledropdown" finished-at="2025-09-22T19:07:38 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonprofiledropdown -->
+      </class> <!-- dsa_sheet_Test.DSA_sheet_HeaderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

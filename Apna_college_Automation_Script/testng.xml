@@ -2,5 +2,26 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class name="dsa_sheet_Test.Login_test"/>
+      <class name="dsa_sheet_Test.CreateAccount_Test"/>
+      <class name="dsa_sheet_Test.Courses_Test"/>
+    </classes>
   </test> <!-- Test -->
+  
+<!--  <test name="Test" enabled="true"> 
+	  <classes>
+		  <class
+		  name="tests.CreateAccount_Test">
+		  </class>
+	  </classes>
+  </test>
+  <test name="Test1" enabled="true">
+	  <classes>
+		  <class
+		  name="tests.Courses_Test">
+		  </class>
+	  </classes>
+  </test>-->
+  
 </suite> <!-- Suite -->

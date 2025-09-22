@@ -3,14 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsa_sheet_Test.Courses_Test">
+      <class name="dsa_sheet_Test.DSA_sheet_HeaderTest">
         <methods>
-          <include name="clickonSigma9"/>
-          <include name="clickonsignIN"/>
-          <include name="launchSheeturl"/>
+          <include name="clickonResource"/>
+          <include name="clickonprofiledropdown"/>
           <include name="Login"/>
+          <include name="launchSheeturl"/>
+          <include name="clickonDelta7"/>
+          <include name="clickoncourses"/>
+          <include name="clickonDsaSheet"/>
+          <include name="checkNotifications"/>
+          <include name="testSearchBar"/>
+          <include name="clickonProfileLogo"/>
+          <include name="clickonAlpha6"/>
+          <include name="checkDarkmodebutton"/>
+          <include name="chekcodingStreak"/>
+          <include name="clickonSigma_9"/>
         </methods>
-      </class> <!-- dsa_sheet_Test.Courses_Test -->
+      </class> <!-- dsa_sheet_Test.DSA_sheet_HeaderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

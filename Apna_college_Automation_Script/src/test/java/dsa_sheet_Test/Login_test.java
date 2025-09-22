@@ -13,20 +13,18 @@ public class Login_test extends Baseliberary
 	@BeforeTest
 	public void launchSheeturl()
 	{
-		launchSheetURL("https://sheetprod.jainemo.com/");
+		String path ="C:\\Users\\Apna College\\eclipse-workspace\\Apna_college_Automation_Script\\TestData\\URL.properties";
+		launchSheetURL(getpropdata(path, "sheeturl"));
 		obj = new Login_page();
 	}
 	@Test(priority=1)
-	public void clickonsignIN() throws InterruptedException
+	public void clickonsignIN() 
 	{
-		Thread.sleep(5000);
 		obj.Clickon_signin();
 	}
 	@Test(priority = 2)
-	public void Login() throws InterruptedException
+	public void Login()
 	{
-		Thread.sleep(5000);
 		obj.login();
 	}
-	
 }
