@@ -3,45 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsa_sheet_Test.Profile_edit_Test">
+      <class name="dsa_sheet_Test.Setting_test">
         <methods>
-          <include name="selectbranch"/>
-          <include name="StartedYear"/>
-          <include name="selectjobStartedyear"/>
-          <include name="enterCompany"/>
-          <include name="clickonToggle"/>
-          <include name="enterLeetCode"/>
-          <include name="Uploadresume"/>
-          <include name="enter_Name"/>
-          <include name="closeAnothereduPage"/>
-          <include name="selectlocationtype"/>
+          <include name="clickonWhatsapptoggle"/>
           <include name="launchSheeturl"/>
-          <include name="selectjobendyear"/>
-          <include name="endYear"/>
-          <include name="select_Degree"/>
-          <include name="clickOnInstiution"/>
-          <include name="clickonEditProfile"/>
-          <include name="OpenAnothereduPage"/>
-          <include name="entertitle"/>
-          <include name="enter_Mobile_Num"/>
-          <include name="openProFile"/>
-          <include name="clickonanotherexp"/>
-          <include name="enterLinkedin"/>
-          <include name="enterCodeForce"/>
-          <include name="StartedMonth"/>
-          <include name="enterlocation"/>
-          <include name="enterBio"/>
-          <include name="enterSkills"/>
-          <include name="Login"/>
-          <include name="clickonsavebutton"/>
-          <include name="selectjobEndmonth"/>
-          <include name="enterGithubUrl"/>
-          <include name="employeeType"/>
-          <include name="selectjobStartedmonth"/>
-          <include name="enterUserName"/>
-          <include name="endMonth"/>
+          <include name="clickonEmailtoggle"/>
         </methods>
-      </class> <!-- dsa_sheet_Test.Profile_edit_Test -->
+      </class> <!-- dsa_sheet_Test.Setting_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
