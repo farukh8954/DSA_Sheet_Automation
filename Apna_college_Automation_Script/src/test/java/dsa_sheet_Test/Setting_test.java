@@ -64,6 +64,7 @@ public class Setting_test extends Baseliberary
 	@Test(priority = 10)
 	public void uploadpic() throws InterruptedException
 	{
+		Thread.sleep(1000);
 		obj.uploadpic();
 	}
 	@Test(priority = 11)

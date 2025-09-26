@@ -1,7 +1,6 @@
 package baselibrary;
 
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -28,8 +27,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+
 import application_utility.Application_utility;
 import excel_utility.Excel_utility;
 import property_utility.Property_utility;
@@ -43,7 +42,6 @@ public class Baseliberary implements Excel_utility,Property_utility, Wait_utilit
 	
 	public void launchSheetURL(String url) 
 	{
-
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get(url);
@@ -196,7 +194,11 @@ public class Baseliberary implements Excel_utility,Property_utility, Wait_utilit
 		action.click(ele).perform();
 		action.sendKeys(Keys.ARROW_DOWN).perform();
 		action.sendKeys(Keys.ENTER).perform();
-		
 	}
-	
+	@Override
+	public void clickEnter()
+	{
+		Actions action = new Actions(driver);
+		action.sendKeys(Keys.ENTER).perform();
+	}	
 }

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsa_sheet_Test.Setting_test">
+      <class name="dsa_sheet_Test.Dsa_sheet_mainpagetest">
         <methods>
-          <include name="clickonWhatsapptoggle"/>
+          <include name="saveQUestion"/>
           <include name="launchSheeturl"/>
-          <include name="clickonEmailtoggle"/>
         </methods>
-      </class> <!-- dsa_sheet_Test.Setting_test -->
+      </class> <!-- dsa_sheet_Test.Dsa_sheet_mainpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

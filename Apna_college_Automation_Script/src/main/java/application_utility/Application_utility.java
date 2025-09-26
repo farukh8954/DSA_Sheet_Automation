@@ -9,4 +9,5 @@ public interface Application_utility
 	public void uploadfile(String filepath);
 	public void actionclick(WebElement ele);
 	public void aerodown(WebElement ele);
+	public void clickEnter();
 }
