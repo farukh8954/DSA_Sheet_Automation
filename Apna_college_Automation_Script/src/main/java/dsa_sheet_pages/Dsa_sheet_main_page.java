@@ -54,8 +54,6 @@ public class Dsa_sheet_main_page extends Baseliberary
 	private List<WebElement> youtube;
 	@FindBy(xpath = "//img[@alt=\"Practice\"]")
 	private List<WebElement> practice;
-	@FindBy(xpath = "//p[text()=\"Resources\"]")
-	private WebElement Resources;
 	@FindBy(xpath = "(//button[@title=\"Start Timer\"])[1]")
 	private WebElement playButton;
 	@FindBy(xpath = "(//button[@title=\"Reset Timer\"])[1]")
@@ -64,6 +62,10 @@ public class Dsa_sheet_main_page extends Baseliberary
 	private WebElement closetimer;
 	@FindBy(xpath = "//div[@class=\"h-[64px] mx-auto dark:border-l-[#313336] border-l-[#E5E7EB] flex justify-center items-center cursor-pointer\"]")
 	private List<WebElement> SaveQue;
+	@FindBy(xpath = "//p[text()=\"Resources\"]")
+	private WebElement Resources;
+	@FindBy(xpath = "//p[text()=\"DSA sheet\"]")
+	private WebElement DSAsheet;
 	
 	public void Clickon_signin()
 	{
@@ -172,10 +174,7 @@ public class Dsa_sheet_main_page extends Baseliberary
 			WebElement elem =youtube.get(i);
 			scrollele(elem);
 			Thread.sleep(1000);
-			waitforclick(elem);
-			Thread.sleep(1000);
-			switchwindow(0);
-			Thread.sleep(1000);
+			closeNewTab(elem);
 		}
 	scrollele(Resources);
 	}
@@ -186,10 +185,7 @@ public class Dsa_sheet_main_page extends Baseliberary
 			WebElement elem =practice.get(i);
 			scrollele(elem);
 			Thread.sleep(1000);
-			waitforclick(elem);
-			Thread.sleep(1000);
-			switchwindow(0);
-			Thread.sleep(1000);
+			closeNewTab(elem);
 		}
 	}
 	public void clickonTimer() throws InterruptedException
@@ -208,5 +204,8 @@ public class Dsa_sheet_main_page extends Baseliberary
 			Thread.sleep(1000);
 			actionclick(elem);
 		}
+		waitforclick(Resources);
+		Thread.sleep(1000);
+		actionclick(DSAsheet);
 	}
 }

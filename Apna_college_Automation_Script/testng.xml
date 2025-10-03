@@ -3,15 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <!--<class name="baselibrary.Baseliberary"/>-->
+      <class name="dsa_sheet_Test.Article_test"/>
       <class name="dsa_sheet_Test.Login_test"/>
-      <!--<class name="dsa_sheet_Test.Profile_edit_Test"/>
-      <class name="dsa_sheet_Test.Dsa_sheet_mainpagetest"/>
+      <class name="dsa_sheet_Test.Profile_edit_Test"/>
       <class name="dsa_sheet_Test.CreateAccount_Test"/>
+      <class name="dsa_sheet_Test.Dsa_sheet_mainpagetest"/>
       <class name="dsa_sheet_Test.DSA_sheet_HeaderTest"/>
-      <class name="baselibrary.Baselibrary"/>
+      <class name="dsa_sheet_Test.DaysTest"/>
+      <class name="dsa_sheet_Test.CompanywiseTest"/>
       <class name="dsa_sheet_pages.DSA_sheet_headerPage"/>
-      <class name="dsa_sheet_Test.Dsa_Profile_mainPageTest"/>-->
+      <class name="dsa_sheet_Test.Setting_test"/>
+      <class name="dsa_sheet_Test.Dsa_Profile_mainPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

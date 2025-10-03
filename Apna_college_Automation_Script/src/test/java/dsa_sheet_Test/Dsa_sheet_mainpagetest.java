@@ -45,7 +45,7 @@ public class Dsa_sheet_mainpagetest extends Baseliberary
 	@Test(priority = 6)
 	public void clickonCodebuddy() throws InterruptedException
 	{
-		obj.clickonCodeBuddy();
+		obj.clickonCodeBuddy(); 
 	}
 	@Test(priority = 7)
 	public void ClickonsavedButton()
